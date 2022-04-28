@@ -5,4 +5,6 @@ interface MainPresenter {
     fun addData(angkaPertama: String, angkaKedua: String)
 
     fun loadData()
+
+    fun clearHasil()
 }
